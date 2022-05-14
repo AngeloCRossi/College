@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+// VERIFICAR SE O CLIENTE TEM MAIS DE 18 ANOS PARA PODER COMPRAR O INGRESSO DO SHOW 
+
+int main(int argc, char *argv[]) {
+	
+	int IDADE;
+	
+	printf("How old are you? \n");
+	scanf("%d", &IDADE);
+		
+		if (IDADE >= 18)
+		{
+			printf("Go ahead, you can buy it!");
+		}
+		else
+		{
+			printf("You SHALL no PASS!!!");
+		}		
+			
+	return 0;
+}
