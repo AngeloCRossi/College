@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+ 	int main() {
+		
+		float x,a;
+		while (x<3) {
+			printf("How tall are you? \n");
+			scanf("%f", &a);
+		
+			if (a > 1.80)
+		{
+			printf("Go ahead, you can pass! \n");
+		}
+		else
+		{
+			printf("You SHALL no PASS!!! \n");
+		}	
+		x++;
+		}
+	
+	
+	return 0;
+}
